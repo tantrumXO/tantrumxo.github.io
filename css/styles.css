@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	color:#EEEEEE;
+	cursor: none;
+	font-family: 'Playfair Display', serif;
+	overflow: hidden;
+}
+
+body {
+	background-color: #2a2a2a;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 400;
+}
+
+.jumbotron {
+	background-color: transparent;
+	margin-top: 10%;
+}
+
+.navbar-nav {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.nav-item {
+	font-size: 1.25em;
+	width: 200px;
+	height: 50px;
+}
+
+#work {
+	transition: ease-out color 0.2s, ease-out font-size 0.2s;
+}
+
+#work:hover {
+	color: #F48BA9;
+	font-size: 1.5em;
+}
+
+#skills {
+	transition: ease-out color 0.2s, ease-out font-size 0.2s;
+}
+
+#skills:hover {
+	color: #E6D7FF;
+	font-size: 1.5em;
+}
+
+#about {
+	transition: ease-out color 0.2s, ease-out font-size 0.2s;
+}
+
+#about:hover {
+	color: #936ED4;
+	font-size: 1.5em;
+}
+
+#experience {
+	transition: ease-out color 0.2s, ease-out font-size 0.2s;
+}
+
+#experience:hover {
+	color: #86CBED;
+	font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+	.jumbotron {
+		background-color: transparent;
+		margin-top: 20%;
+	}
+}
+
+#cursor {
+	pointer-events: none;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #EEEEEE;
+	border-radius: 10px;
+	transition: ease-out height 0.2s, ease-out width 0.2s, ease-out border-radius 0.2s, ease-out opacity 0.2s;
+}
+
+.hoveredCursor {
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 40px !important;
+	opacity: 20% !important;
+}
+
+.line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 3px;
+	width: 100%;
+	background-color: #EEEEEE;
+	transform-origin: 0.5 0;
+}
+
+.letters {
+	opacity: 0.5;
+}
