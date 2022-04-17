@@ -1,7 +1,7 @@
 $(document).mousemove(function(e) {
 	const cursor = $('#cursor');
 	const target = $(event.target);
-	cursor.css('left', e.clientX-15).css('top', e.clientY-15);
+	cursor.css('left', e.clientX-20).css('top', e.clientY-20);
 
 	const isLinkTag = target.is('a');
 	const isHovered = cursor.hasClass('hoveredCursor');

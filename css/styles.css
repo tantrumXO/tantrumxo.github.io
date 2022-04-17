@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: #2a2a2a;
+	background-color: #1a1a1a;
 }
 
 h1 {
@@ -32,39 +32,39 @@ h1 {
 	height: 50px;
 }
 
-#work {
+#linkedin {
 	transition: ease-out color 0.2s, ease-out font-size 0.2s;
 }
 
-#work:hover {
-	color: #F48BA9;
+#linkedin:hover {
+	color: #f5c7f7;
 	font-size: 1.5em;
 }
 
-#skills {
+#github {
 	transition: ease-out color 0.2s, ease-out font-size 0.2s;
 }
 
-#skills:hover {
-	color: #E6D7FF;
+#github:hover {
+	color: #f7a9d8;
 	font-size: 1.5em;
 }
 
-#about {
+#resume {
 	transition: ease-out color 0.2s, ease-out font-size 0.2s;
 }
 
-#about:hover {
-	color: #936ED4;
+#resume:hover {
+	color: #a393eb;
 	font-size: 1.5em;
 }
 
-#experience {
+#email {
 	transition: ease-out color 0.2s, ease-out font-size 0.2s;
 }
 
-#experience:hover {
-	color: #86CBED;
+#email:hover {
+	color: #ec83bc;
 	font-size: 1.5em;
 }
 
@@ -93,10 +93,10 @@ h1 {
 }
 
 .hoveredCursor {
-	width: 50px !important;
-	height: 50px !important;
+	width: 40px !important;
+	height: 40px !important;
 	border-radius: 40px !important;
-	opacity: 20% !important;
+	opacity: 15% !important;
 }
 
 .line {
@@ -109,8 +109,9 @@ h1 {
 	width: 100%;
 	background-color: #EEEEEE;
 	transform-origin: 0.5 0;
+	opacity:0;
 }
 
 .letters {
-	opacity: 0.5;
+	opacity: 0;
 }
