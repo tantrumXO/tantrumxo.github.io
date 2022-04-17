@@ -42,7 +42,7 @@ anime.timeline({})
 	.add({
 		targets: '.letters-bottom',
 		opacity: [0, 0.75],
-		translateY: [-10, 15],
+		translateY: [-10, 20],
 		easing: 'easeOutExpo',
 		duration: 500
 	})
