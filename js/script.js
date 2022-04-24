@@ -40,16 +40,16 @@ anime.timeline({})
 		duration: 500
 	})
 	.add({
-		targets: '.letters-bottom',
-		opacity: [0, 0.75],
-		translateY: [-10, 20],
-		easing: 'easeOutExpo',
-		duration: 500
-	})
-	.add({
 		targets: '.line',
 		opacity: [1, 0],
 		scaleX: [0.25, 0],
 		easing: 'easeInOutExpo',
 		duration: 700
+	})
+	.add({
+		targets: '.letters-bottom',
+		opacity: [0, 0.75],
+		translateY: [-10, 20],
+		easing: 'easeOutExpo',
+		duration: 500
 	})
